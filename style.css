@@ -1,0 +1,32 @@
+body{
+font-family:Arial;
+background:#f5f7ff;
+text-align:center;
+padding-top:100px;
+}
+
+h1{
+color:#444;
+}
+
+.menu a{
+
+display:block;
+
+margin:15px auto;
+
+width:220px;
+
+padding:15px;
+
+background:#6c8cff;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:10px;
+
+font-size:18px;
+
+}
