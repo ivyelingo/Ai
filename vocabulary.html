@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vocabulary</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>📚 My Vocabulary</h1>
+
+<div id="vocabList"></div>
+
+<script>
+
+let words = JSON.parse(localStorage.getItem("vocab")) || [];
+
+let list = document.getElementById("vocabList");
+
+words.forEach(word =>{
+
+let div = document.createElement("div");
+
+div.innerText = word;
+
+list.appendChild(div);
+
+});
+
+</script>
+
+</body>
+</html>
